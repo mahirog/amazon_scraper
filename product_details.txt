@@ -1,0 +1,5 @@
+# Append the product details to a text file
+with open("product_details.txt", "a") as file:
+    file.write(f"Product Title: {title}\n")
+    file.write(f"Product Price: {price}\n")
+    file.write("\n")  # Add a blank line for readability
